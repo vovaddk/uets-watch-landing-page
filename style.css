@@ -1,7 +1,8 @@
-main {
+.container {
   width: 816px;
-  padding: 0 312px 0 312px;
   font-family: "Roboto", sans-serif;
+  padding-left: 420px;
+  padding-right: 0;
 }
 .blog-header p {
   display: inline-flex;
