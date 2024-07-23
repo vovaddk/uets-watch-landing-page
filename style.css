@@ -97,9 +97,9 @@
   line-height: 40px;
 }
 .related-courses {
-  padding-left: 150px;
-  padding-right: 175px;
-  max-height: 471px;
+  padding-left: 100px;
+  width: 1345px;
+  /* max-height: 471px; */
   flex-shrink: 0;
 }
 .related-courses-header {
@@ -110,6 +110,8 @@
 
 .button-container {
   display: flex;
+  justify-content: flex-end;
+  flex: 1;
 }
 
 .circle-button {
