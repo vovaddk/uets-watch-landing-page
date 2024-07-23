@@ -70,7 +70,7 @@
 @media screen and (max-width: 768px) {
   main {
     width: 100%;
-    padding: 0 20px 0 0;
+    padding: 0 20px;
   }
   .blog-header {
     padding: 0 20px;
@@ -89,11 +89,12 @@
   }
 
   .p1-text {
+    width: auto !important;
     text-align: left;
     width: 100%;
     font-size: 16px;
     line-height: 24px;
-    padding: 0 20px;
+    padding-left: 20px;
   }
   .video {
     width: auto;
