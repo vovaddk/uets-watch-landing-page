@@ -1,0 +1,237 @@
+main {
+  width: 816px;
+  padding: 0 312px 0 312px;
+  font-family: "Roboto", sans-serif;
+}
+.blog-header p {
+  display: inline-flex;
+  align-items: flex-start;
+}
+.blog-header p:first-child {
+  color: var(--Yellow, #fdc84a);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 21px; */
+  text-transform: uppercase;
+}
+.blog-header p:last-child {
+  color: var(--Dark-Blue, #202c53);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 21px; */
+  opacity: 0.7;
+  margin-left: 28px;
+}
+.h1-text {
+  margin: 0;
+  padding: 45px 43px 48px 0;
+  min-width: 773px;
+  color: #30485f;
+  font-family: "Roboto";
+  font-size: 50px;
+  font-style: normal;
+  line-height: 64px;
+}
+
+.p-text {
+  color: #30485f;
+  font-family: "Roboto", bold;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 40px;
+}
+.p1-text {
+  width: 813px;
+  /* height: 368px; */
+  color: #2c3034;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.video {
+  position: relative;
+  margin: 2em 0;
+}
+
+.video img {
+  width: 100%;
+  height: auto;
+}
+
+.video .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  border-radius: 50%;
+}
+.video-timeline {
+  width: 814px;
+}
+.video-timeline ul {
+  list-style: none;
+  padding: 0;
+}
+.video-timeline ul li::before {
+  content: attr(data-time);
+  color: #30485f;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.video-timeline ul li {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 40px;
+}
+.related-courses {
+  padding-left: 150px;
+  padding-right: 175px;
+  max-height: 471px;
+  flex-shrink: 0;
+}
+.related-courses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+}
+
+.circle-button {
+  margin-left: 10px; /* Може змінюватися в залежності від бажаного відступу */
+}
+
+.related-courses h2 {
+  display: flex;
+  color: #30485f;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 600;
+  line-height: 48px; /* 120% */
+}
+.circle-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #657d91; /* Колір кнопки ліворуч */
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  margin: 8px;
+}
+.circle-button.right {
+  background-color: #2e4663;
+}
+.circle-button svg {
+  fill: white;
+}
+.video-cards {
+  display: flex;
+  gap: 30px;
+}
+.video-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 370px;
+  height: 360px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.video-card img {
+  width: 370px;
+  height: 210px;
+  object-fit: cover;
+}
+
+.video-card .video-overlay {
+  position: relative;
+}
+
+.video-card .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svg-big {
+  width: 67px;
+  height: 67px;
+  flex-shrink: 0;
+}
+.video-card .play-button svg {
+  fill: #000;
+  width: 24px;
+  height: 24px;
+}
+
+.video-card .content {
+  padding: 15px;
+}
+.video-card .title {
+  color: var(--Dark-Blue, #202c53);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 30px; /* 150% */
+}
+.view-link-container {
+  display: flex;
+  align-items: center;
+}
+
+.view-link {
+  color: #1976d2;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+.view-link {
+  width: 80px;
+  height: 20px;
+  color: #7a9cbb;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+svg {
+  fill: #7a9cbb;
+  width: 16px;
+  height: 16px;
+}
