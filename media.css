@@ -1,0 +1,159 @@
+/* @media (max-width: 767px) {
+  main {
+    width: auto;
+    padding: 0 20px 0 10px !important;
+  }
+
+  .blog-header {
+    width: 330px !important;
+    padding-top: 48px !important;
+  }
+  .blog-header p:last-child {
+    color: var(--Dark-Blue, #202c53);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .h1-text {
+    width: 330px;
+  }
+
+  .p-text {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .p1-text {
+    width: 100%;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .video-timeline {
+    width: 100%;
+  }
+
+  .video-card {
+    width: 100%;
+    height: auto;
+    max-width: 320px;
+  }
+
+  .video-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .related-courses {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .related-courses h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .circle-button {
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+  }
+
+  .video-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+} */
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .blog-header {
+    padding: 0 20px;
+  }
+  .h1-text {
+    font-size: 32px;
+    line-height: 40px;
+    padding: 0 20px;
+    min-width: unset;
+  }
+
+  .p-text {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 20px;
+  }
+
+  .p1-text {
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 20px;
+  }
+  .video {
+    width: auto;
+    padding: 0 20px;
+  }
+  .video-timeline {
+    width: 100%;
+  }
+
+  .video-timeline ul li {
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .related-courses {
+    display: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .related-courses h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .video-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .video-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-card .title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .h1-text {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .p-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .related-courses h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
